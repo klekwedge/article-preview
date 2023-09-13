@@ -2,15 +2,18 @@
   <div>
     <Image />
   </div>
+  <Text/>
 </template>
 
 <script lang="js">
 import Image from './components/Image.vue'
+import Text from './components/Text.vue'
 
 export default {
   name: "App",
   components: {
-    Image
+    Image,
+    Text
   },
 };
 </script>
