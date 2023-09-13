@@ -44,7 +44,7 @@ export default {
 };
 </script>
   
-  <style>
+<style lang="scss" scoped>
 .author-share {
   display: flex;
   justify-content: space-between;

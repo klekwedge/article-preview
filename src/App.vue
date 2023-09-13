@@ -30,7 +30,7 @@ export default {
   border-radius: 0.625rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   #app {
     display: flex;
   }

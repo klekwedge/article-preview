@@ -39,7 +39,7 @@ export default {
 };
 </script>
   
-  <style>
+<style lang="scss" scoped>
 .container {
   position: relative;
   width: 100%;
