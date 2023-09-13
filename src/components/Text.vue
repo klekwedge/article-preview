@@ -22,7 +22,7 @@
   
   <script>
 // import Author from "./Author.vue";
-// import Share from "./Share.vue";
+import Share from "./Share.vue";
 
 export default {
   data() {
@@ -30,9 +30,7 @@ export default {
       isShare: false,
     };
   },
-
-  //   components: { Author, Share },
-
+  components: { Share },
   methods: {
     toggleShare() {
       this.isShare = !this.isShare;
