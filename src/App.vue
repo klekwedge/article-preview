@@ -1,13 +1,16 @@
 <template>
-  
+  <div>
+    <Image />
+  </div>
 </template>
 
 <script lang="js">
+import Image from './components/Image.vue'
+
 export default {
   name: "App",
   components: {
-    HeroImage,
-    Text,
+    Image
   },
 };
 </script>
