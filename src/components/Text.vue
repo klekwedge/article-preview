@@ -10,9 +10,9 @@
       any room feel complete.
     </p>
 
-    <!-- <div>
+    <div>
       <Author @open="toggleShare" />
-    </div> -->
+    </div>
 
     <div>
       <Share @close="toggleShare" v-show="isShare" class="share-component" />
@@ -21,7 +21,7 @@
 </template>
   
   <script>
-// import Author from "./Author.vue";
+import Author from "./Author.vue";
 import Share from "./Share.vue";
 
 export default {
@@ -30,7 +30,7 @@ export default {
       isShare: false,
     };
   },
-  components: { Share },
+  components: { Author, Share },
   methods: {
     toggleShare() {
       this.isShare = !this.isShare;
